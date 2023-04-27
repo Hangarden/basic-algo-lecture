@@ -1,6 +1,7 @@
-# 🐕 바킹독의 실전 알고리즘 🐕
+# 바킹독의 실전 알고리즘 문제집
 
 ## 목차
+[문제집 링크](workbook.md)
 ```
 0x00강 - 오리엔테이션
 0x01강 - 기초 코드 작성 요령 I
@@ -43,7 +44,6 @@
 
 ## 출처
 
-- [실전 알고리즘 강좌 블로그](https://blog.encrypted.gg/category/%EA%B0%95%EC%A2%8C/%EC%8B%A4%EC%A0%84%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
-- [유튜브](https://www.youtube.com/c/baaarkingdog)
-- [깃헙 리포지토리](https://github.com/encrypted-def/basic-algo-lecture)
-- [문제집 링크](workbook.md)
+- [바킹독 실전 알고리즘 강좌 블로그](https://blog.encrypted.gg/category/%EA%B0%95%EC%A2%8C/%EC%8B%A4%EC%A0%84%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
+- [바킹독 유튜브](https://www.youtube.com/c/baaarkingdog)
+- [바킹독 깃헙 리포지토리](https://github.com/encrypted-def/basic-algo-lecture)
