@@ -91,7 +91,7 @@ def gen_ind_workbook(attrs, category):
     
 # ['0x11', '그리디', 'https://www.acmicpc.net/workbook/view/7320']
 def gen_total_workbook(attrs):
-  with open('../workbook.md', 'w', encoding="UTF-8") as f:
+  with open('../README.md', 'w', encoding="UTF-8") as f:
     f.write('''# 문제집
 | 번호 | 주제 | 진행도 |
 | :--: | :--: | :--: |\n''')
@@ -100,6 +100,11 @@ def gen_total_workbook(attrs):
         f.write(f'| {attr[0]} | {attr[1]} | |\n')
       else:
         f.write(f'| {attr[0]} | [{attr[1]}](workbook/{attr[0]}.md) | {pbar} |\n')
+    f.write('''## 출처
+- [바킹독 실전 알고리즘 강좌 블로그](https://blog.encrypted.gg/category/%EA%B0%95%EC%A2%8C/%EC%8B%A4%EC%A0%84%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98)
+- [바킹독 유튜브](https://www.youtube.com/c/baaarkingdog)
+- [바킹독 깃헙 리포지토리](https://github.com/encrypted-def/basic-algo-lecture)
+    ''')
 
 attrs = parse_links()
 category = parse_category()
